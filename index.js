@@ -1,10 +1,9 @@
 // require fs
 // require inquirer
-var inquirer = require("inquirer");
-var fs = require("fs");
+const inquirer = require("inquirer");
+const fs = require("fs");
 const questions = [
-    inquirer
-    .prompt( [
+
         {
             type: "input",
             message: "What is your description?",
@@ -51,6 +50,22 @@ const questions = [
           message: "Questions?",
           name: "What email should projects be sent to?",
         },
-    ])
-  ]
+    ];
+    // inquirer.prompt method
+    function init() {
+      inquirer.prompt(questions).then(function (data) {
+        console.log(data);
+        //Write file called ReadMe
+        fs.writeFile("sampleReadMe.md", generateMarkdown(data), function (err) {
+          if (err) {
+            return console.log(err);
+          }
+          console.log("Success!");
+        });
+      });
+    }
+    //function call to initlialize
+    init();
+    
+  
     
