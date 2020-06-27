@@ -28,7 +28,7 @@ const questions = [
         {
           type: "input",
           message: "What is your licenses?",
-          name: "license",
+          name: ["MIT", "GPL", "Apache License", "Mozilla Public License"],
         },
         {
           type: "input",
