@@ -6,7 +6,7 @@ const questions = [
 
         {
             type: "input",
-            message: "What is your description?",
+            message: "What is your title?",
             name: "title",
         },
 
