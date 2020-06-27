@@ -27,11 +27,6 @@ const questions = [
         },
         {
           type: "input",
-          message: "Who are your collaborators?",
-          name: "credits",
-        },
-        {
-          type: "input",
           message: "What is your licenses?",
           name: "license",
         },
@@ -47,8 +42,13 @@ const questions = [
         },
            {
           type: "input",
-          message: "Questions?",
-          name: "What email should projects be sent to?",
+          message: "What's your email?",
+          name: "email",
+           },
+           {
+            type: "input",
+            message: "What is your GitHub username?",
+            name: "tests",
         },
     ];
     // inquirer.prompt method
