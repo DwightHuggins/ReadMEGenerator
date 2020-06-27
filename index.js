@@ -49,35 +49,8 @@ const questions = [
            {
           type: "input",
           message: "Questions?",
-          name: "questions",
+          name: "What email should projects be sent to?",
         },
     ])
   ]
-    .then(function (data) {
-      var filename = data.name.toLowerCase().split(" ").join("") + ".json";
-      fs.writeFile(filename, JSON.stringify(data, null, "\t"), function (err) {
-        if (err) {
-          return console.log(err);
-        }
-        console.log("Success!");
-      });
-    });
-
-// array of questions for user
-const questions = [
-    // https://www.npmjs.com/package/inquirer#questions
-
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
-    // Use the fs package
-}
-
-// function to initialize program
-function init() {
-// Use the inquirer package
-}
-
-// function call to initialize program
-init();
+    
