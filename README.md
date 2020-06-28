@@ -21,4 +21,4 @@
 ## USAGE
 ```User will run node index.js in his or her terminal. User will then respond to a series of prompts pertaining to information required to generate the README Document.```
 
-![](/Users/dwighthuggins/gt/homework/gt-readme-generator/assets/Screen Shot 2020-06-28 at 3.37.42 PM.png)
+![](gt-readme-generator/assets/Screen Shot 2020-06-28 at 3.37.42 PM.png)
