@@ -20,7 +20,7 @@
 ```User will run node index.js in his or her terminal. User will then respond to a series of prompts pertaining to information required to generate the README Document.```
 
 ## License
-```See Bade Above```
+```See Badge Above```
 
 ## Contributing
 ```None at this time.```

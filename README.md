@@ -20,7 +20,9 @@
 
 
 ## USAGE
-```User will run node index.js in his or her terminal. User will then respond to a series of prompts pertaining to information required to generate the README Document.```
+```User will run node index.js in his or her terminal. User will then respond to a series of prompts pertaining to information required to generate a README Document.```
+
+![](./assets/ScreenShot.png)
 
 ## Credits
 ```This was a solo project completed as homework for the Georgia Tech Full Stack Flex Program.```
