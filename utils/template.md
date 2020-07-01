@@ -1,6 +1,27 @@
-# Title: {{title}}
+# Title: 
+{{title}}
 
-## About me
+## About
+{{description}}
 
+## Installation:
+{{installation}}
 
-# Instructions:
+## Instructions:
+{{usage}}
+
+## Licenses
+{{license}}
+
+## Contributions
+{{contributing}}
+
+## Tests
+{{tests}}
+
+## Email
+{{email}}
+
+## Github
+{{github}}
+
