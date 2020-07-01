@@ -27,9 +27,10 @@ const questions = [
     name: "usage",
   },
   {
-    type: "input",
+    type: "list",
     message: "What is your licenses?",
-    name: ["MIT", "GPL", "Apache License", "Mozilla Public License"],
+    choices: ["MIT", "GPL", "Apache License", "Mozilla Public License"],
+    name: "license"
   },
   {
     type: "input",
@@ -49,7 +50,7 @@ const questions = [
   {
     type: "input",
     message: "What is your GitHub username?",
-    name: "tests",
+    name: "github",
   },
 ];
 // inquirer.prompt method
